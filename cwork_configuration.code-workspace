@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "c-c-Learning",
+			"path": "c-c-Learning"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"math.h": "c",
+			"stdio.h": "c"
+		}
+	}
+}

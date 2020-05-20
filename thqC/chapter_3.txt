@@ -1,0 +1,31 @@
+
+    // int a,b;
+    // //赋值表达式 a=3
+    // a=(b=3);
+    // printf("%d ",a);
+    // printf("%d",a=b); //赋值表达式的多重功能
+    // double d = 123.45689e100;
+    // float f=d; //double 向float赋值时取前面7位有效数字
+    // char c;
+    // int i=289;
+    // c = i;
+    // printf("%d",c); //发生截断 低字节原封不动地送过去
+    // unsigned short a= 65535;
+    // short int b = -2;
+    // printf("size=%d,a=%d,%u\n",sizeof(a),a,a);
+    // printf("size=%d,b=%d,%u",sizeof(b),b,b);
+    // char str[4]="####";
+    // char dst[5];
+    //  for(int i=0;i<strlen(str);i++)
+    // {
+    //     strncpy(dst,str,i);
+    //     printf("%5s\n",dst); %ms %mc都可控制输出数据所占列 ，%-ms时向左对齐  %m.ns只取左端n个字符
+    //        %g用于自动适应，输出实数或指数 ，输出%需 使用%%这样的格式 printf("%%");
+    // printf("------------\n");
+    //  }
+    
+    ////      scanf 输入函数需要对长整，双精度使用%lf,%ld才能输入，也可指定输入数据的宽度，以便自动截取 scanf("%3d%3d")
+    //        scanf 中利用'*'跳过指定列数 如 scanf("% *3d",&a) 读入3列但不赋给任何数 ，输入数据不能规定精度
+    // int a;
+    // scanf("% *3d %d",&a);
+    // printf("%d",a);
